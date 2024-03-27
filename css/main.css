@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1240px;
+  margin: auto;
+  padding: auto;
+  margin-top: 18px;
+}
+
+/* header */
+.header{
+  margin-bottom: 80px;
+}
+.main-header__block {
+  display: flex;
+  align-items: center;
+
+justify-content: space-evenly;}
+
+.main-header__title {
+  display: flex;
+  gap: 16px;
+}
+
+.main-header__link {
+  font-size: 15px;
+  line-height: 160%;
+  color: #000;
+}
+
+.main-header__btn {
+  border-radius: 5px;
+  padding: 8px 16px;
+  width: 160px;
+  height: 40px;
+  background-color: #00BAFC;
+  color: #fff;
+}
+/* hero */
+.hero{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.hero_content{
+  width: 470px;
+}
+.hero_title{
+  font-size: 30px;
+line-height: 130%;
+color: #000;
+}
+.hero_text{
+  font-size: 16px;
+line-height: 150%;
+color: #000;
+margin-top: 16px;
+margin-bottom: 16px;
+}
+.hero_btn{
+  border-radius: 5px;
+padding: 8px 16px;
+width: 232px;
+height: 40px;
+background-color: #00BAFC;
+color: #fff;
+}
+.hero_block{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* hero2 */
+.hero2_title {
+  font-size: 24px;
+line-height: 130%;
+text-align: center;
+color: #000;
+}
+.hero2_text{
+  font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #000;
+margin-bottom: 16px;
+}
+.hero2_img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero2_img2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 48px;
+}
+.hero2_btn{
+  border-radius: 5px;
+  padding: 8px 16px;
+  width: 232px;
+  height: 40px;
+  background-color: #00BAFC;
+  color: #fff;
+margin-top: 40px;
+text-align: center;
+}
+.hero2_btn2{
+  margin-top: 40px;
+  text-align: center;
+}
+/* work */
+.work-main_content{
+  text-align: center;
+}
+
+.work_block{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 77px;
+}
+.work_title{
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  color: #000;
+}
+.work_text{
+  font-size: 16px;
+line-height: 150%;
+color: #000;
+}
+/* footer */
+.footer{
+  width: 1300px;
+  background-color: #000;
+}
